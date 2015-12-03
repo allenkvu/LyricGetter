@@ -1,0 +1,1 @@
+A webpage created in ASP.NET MVC (C#) where user could easily obtain a copyable (ctrl-c) Japanese lyric text from websites that has copy protection. User simply has to enter the web address that are supported containing the desired lyric and this webpage will display the copyable lyric text.
