@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyricGetter", "LyricGetter\LyricGetter.csproj", "{B5AB07E9-D33F-4565-B844-DF927E9FAE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyricEngine", "LyricEngine\LyricEngine.csproj", "{228D882A-0924-49F9-B3D5-F6A342CC29F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5AB07E9-D33F-4565-B844-DF927E9FAE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AB07E9-D33F-4565-B844-DF927E9FAE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AB07E9-D33F-4565-B844-DF927E9FAE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AB07E9-D33F-4565-B844-DF927E9FAE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228D882A-0924-49F9-B3D5-F6A342CC29F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228D882A-0924-49F9-B3D5-F6A342CC29F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228D882A-0924-49F9-B3D5-F6A342CC29F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228D882A-0924-49F9-B3D5-F6A342CC29F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <h1>Lyric Getter</h1>
+    <p class="lead">Get copy able Japanese lyrics from supported web page</p>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Enter the supported webpage</h2>
+        <p>
+
+            @using (Html.BeginForm())
+            {
+            <p>
+               @Html.TextBox("webAddress", null, new { maxlength = 200, size = 100 })
+                <br />
+                <input type="submit" value="Enter" />
+            </p>
+            }
+            </p>
+
+        </div>
+        <div class="col-md-4">
+            <h2>Lyric</h2>
+            @model string
+            <p>@Html.Raw(@Model)</p>
+        </div>
+
+    <div class="col-md-4">
+        <h2>Supported webpages</h2>
+        <p>J-lyric</p>
+    </div>
+    </div>
